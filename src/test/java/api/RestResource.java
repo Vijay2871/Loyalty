@@ -12,9 +12,10 @@ import static io.restassured.RestAssured.given;
 
 public class RestResource {
 
-public static Response post(String path,Segments fs) throws FileNotFoundException {
+public static Response post(String path,Object fs) throws FileNotFoundException {
     return SerenityRest.given(getRequestSpecification()).body(fs).when().post(path).then()
             .spec(getResponseSpecification()).assertThat()
             .extract().response();
 }
+
 }

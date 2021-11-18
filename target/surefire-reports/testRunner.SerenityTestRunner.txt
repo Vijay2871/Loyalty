@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testRunner.SerenityTestRunner
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.113 s - in testRunner.SerenityTestRunner
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.197 s - in testRunner.SerenityTestRunner

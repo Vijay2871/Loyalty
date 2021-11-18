@@ -11,7 +11,7 @@ public class FakeData {
        String name= faker.name().title();
        return name;
     }
-    public static String generateLoadValue(){
+    public static String generatePreferedStore(){
         Faker faker=new Faker();
        String load= faker.number().digits(3);
         return load;

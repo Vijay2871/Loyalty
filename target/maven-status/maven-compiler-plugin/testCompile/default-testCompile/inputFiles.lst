@@ -1,3 +1,4 @@
+C:\Users\316418\eclipse-workspace\Loyalty\src\test\java\steps\NegativeSteps.java
 C:\Users\316418\eclipse-workspace\Loyalty\src\test\java\api\RestResource.java
 C:\Users\316418\eclipse-workspace\Loyalty\src\test\java\api\application\ResponseAPI.java
 C:\Users\316418\eclipse-workspace\Loyalty\src\test\java\testRunner\SerenityTestRunner.java
@@ -5,5 +6,7 @@ C:\Users\316418\eclipse-workspace\Loyalty\src\test\java\testRunner\TestRunner.ja
 C:\Users\316418\eclipse-workspace\Loyalty\src\test\java\steps\Steps.java
 C:\Users\316418\eclipse-workspace\Loyalty\src\test\java\api\specbuilder.java
 C:\Users\316418\eclipse-workspace\Loyalty\src\test\java\Utils\ConfigLoader.java
+C:\Users\316418\eclipse-workspace\Loyalty\src\test\java\api\application\requestBody.java
+C:\Users\316418\eclipse-workspace\Loyalty\src\test\java\Utils\FakeData.java
 C:\Users\316418\eclipse-workspace\Loyalty\src\test\java\Utils\PropertyUtils.java
 C:\Users\316418\eclipse-workspace\Loyalty\src\test\java\api\Route.java

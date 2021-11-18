@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="TWG Loyalty" skipped="0" tests="2" time="4.66" timestamp="2021-11-18 04:28:13"><testcase name="Null Customer id"/><testcase name="Passing empty storeID"/></testsuite>

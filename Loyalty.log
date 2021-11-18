@@ -1,0 +1,45 @@
+Request method:	POST
+Request URI:	https://test-api.twg.co.nz/loyalty-v1/loyalty/segments
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=tKySF1qrPUt768FCuQ2N7dZV8OqoQoXdDTsFoWb0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "segments": [
+        {
+            "customerId": "008457",
+            "segment": "Lead Directives Manager",
+            "selectedStores": [
+                
+            ]
+        }
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 18 Nov 2021 03:28:18 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-amzn-RequestId: e99d46dd-e5d6-462f-afed-75c060405ddf
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: I-w81F54SwMFscA=
+X-Amzn-Trace-Id: Root=1-6195c851-3759b196542b20180f366db2
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 6afe1b9f3e0bfb88-AKL
+Content-Encoding: gzip
+
+{
+    "error": {
+        "status": 422,
+        "message": "Segment is not created for custID : 008457 as a preferred store was not selected"
+    }
+}

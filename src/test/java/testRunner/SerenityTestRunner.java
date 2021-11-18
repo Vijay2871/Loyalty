@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = {"src/test/java/features/Loyalty.feature"},
+        features = {"src/test/java/features/Negative.feature"},
         glue = {"/steps"},
         publish = true)
 

@@ -1,2 +1,4 @@
 com\segments\pojo\Segment.class
+com\segments\pojo\Error.class
+com\segments\pojo\ErrorInner.class
 com\segments\pojo\Segments.class

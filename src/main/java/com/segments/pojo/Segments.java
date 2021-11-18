@@ -20,8 +20,9 @@ public class Segments {
     }
 
     @JsonProperty("segments")
-    public void setSegments(List<Segment> segments) {
+    public Segments setSegments(List<Segment> segments) {
         this.segments = segments;
+        return null;
     }
 
 }
