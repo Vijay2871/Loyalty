@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/java/features/Negative.feature"},
+        features = {"src/test/java/features/Loyalty.feature"},
         glue = {"/steps"},
-        publish = true,tags = "@Empty_StoreID")
+        publish = true)
 
 
 public class TestRunner {

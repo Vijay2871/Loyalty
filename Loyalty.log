@@ -14,32 +14,27 @@ Body:
 {
     "segments": [
         {
-            "customerId": "761219",
-            "segment": "Future Functionality Administrator",
-            "selectedStores": [
-                
-            ]
+            "customerId": "330919",
+            "segment": "Product Infrastructure Specialist"
         }
     ]
 }
-HTTP/1.1 200 OK
-Date: Thu, 18 Nov 2021 10:15:13 GMT
+HTTP/1.1 201 Created
+Date: Thu, 18 Nov 2021 11:02:06 GMT
 Content-Type: application/json
-Transfer-Encoding: chunked
+Content-Length: 140
 Connection: keep-alive
-x-amzn-RequestId: e174682a-424c-4f15-9356-f238b985b9ac
+x-amzn-RequestId: 13aecae9-2ed2-4739-894b-57137654f60b
 Access-Control-Allow-Origin: *
-x-amz-apigw-id: I_sjrEC0ywMFxrQ=
-X-Amzn-Trace-Id: Root=1-619627b0-4e711be05298d1531de0625b
+x-amz-apigw-id: I_zbPG23SwMFoFQ=
+X-Amzn-Trace-Id: Root=1-619632ae-4328b0073de778b8055dbcc9
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 6b006fb10fccee9e-AKL
-Content-Encoding: gzip
+CF-RAY: 6b00b45f1bbaee92-AKL
 
 {
-    "error": {
-        "status": 422,
-        "message": "Segment is not created for custID : 761219 as a preferred store was not selected"
-    }
+    "id": "330919",
+    "segment": "Product Infrastructure Specialist",
+    "message": "Segment has been created successfully."
 }
