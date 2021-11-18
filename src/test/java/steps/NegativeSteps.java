@@ -2,22 +2,16 @@ package steps;
 
 import Utils.FakeData;
 import api.application.ResponseAPI;
-import api.application.requestBody;
 import com.segments.pojo.Error;
 import com.segments.pojo.Segment;
 import com.segments.pojo.Segments;
-import io.cucumber.java.an.E;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.filter.log.LogDetail;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import static api.specbuilder.*;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 
 import java.io.FileNotFoundException;

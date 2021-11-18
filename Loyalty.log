@@ -14,8 +14,8 @@ Body:
 {
     "segments": [
         {
-            "customerId": "008457",
-            "segment": "Lead Directives Manager",
+            "customerId": "761219",
+            "segment": "Future Functionality Administrator",
             "selectedStores": [
                 
             ]
@@ -23,23 +23,23 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Thu, 18 Nov 2021 03:28:18 GMT
+Date: Thu, 18 Nov 2021 10:15:13 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-x-amzn-RequestId: e99d46dd-e5d6-462f-afed-75c060405ddf
+x-amzn-RequestId: e174682a-424c-4f15-9356-f238b985b9ac
 Access-Control-Allow-Origin: *
-x-amz-apigw-id: I-w81F54SwMFscA=
-X-Amzn-Trace-Id: Root=1-6195c851-3759b196542b20180f366db2
+x-amz-apigw-id: I_sjrEC0ywMFxrQ=
+X-Amzn-Trace-Id: Root=1-619627b0-4e711be05298d1531de0625b
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 6afe1b9f3e0bfb88-AKL
+CF-RAY: 6b006fb10fccee9e-AKL
 Content-Encoding: gzip
 
 {
     "error": {
         "status": 422,
-        "message": "Segment is not created for custID : 008457 as a preferred store was not selected"
+        "message": "Segment is not created for custID : 761219 as a preferred store was not selected"
     }
 }

@@ -27,11 +27,11 @@ public class Steps {
        s1.setSegment(FakeData.generateSegment());
        s1.setCustomerId(FakeData.generateCustomerId());
 
-List<String> storelist=new ArrayList<>();
+//List<String> storelist=new ArrayList<>();
 //storelist.add("");
 //storelist.add("88");
 //storelist.add("432");
-s1.setSelectedStores(storelist);
+//s1.setSelectedStores(storelist);
 
 
         List<Segment> jsonArray=new ArrayList<>();
@@ -52,7 +52,7 @@ s1.setSelectedStores(storelist);
     @Then("^I get a success status codes$")
     public void i_get_a_success_status_codes() throws Throwable {
         assertThat(response.statusCode(),equalTo(201));
-        Segments responseDeserialize=response.as(Segments.class);
+
     }
 
 
