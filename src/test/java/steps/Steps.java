@@ -51,7 +51,8 @@ public class Steps {
     public void i_has_the_post_request() throws FileNotFoundException {
 
     response=ResponseAPI.post(fs);
-        postResponse=response.as(PostResponse.class);
+    postResponse=response.as(PostResponse.class);
+
     }
 
     @Then("I get a success status codes")

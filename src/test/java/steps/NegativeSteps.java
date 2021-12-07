@@ -1,6 +1,7 @@
 package steps;
 
 import Utils.FakeData;
+import api.StatusCode;
 import api.application.ResponseAPI;
 import com.segments.pojo.Error;
 import com.segments.pojo.Segment;
@@ -59,7 +60,7 @@ public class NegativeSteps {
     }
     @Then("I get a Error status codes")
     public void i_get_a_error_status_codes() {
-        assertThat(error.getError().getStatus(),equalTo(400));
+        assertThat(error.getError().getStatus(),equalTo(StatusCode.STATUS_CODE_400.getCode()));
 
     }
     @Then("I get the Error message")
@@ -68,7 +69,7 @@ public class NegativeSteps {
     }
     @Then("I get a Error status for segments")
     public void i_get_a_error_status_for_segments() {
-        assertThat(error.getError().getStatus(),equalTo(422));
+        assertThat(error.getError().getStatus(),equalTo(StatusCode.STATUS_CODE_422.getCode()));
     }
     @Then("I get the Error message for segments")
     public void i_get_the_error_message_for_segments() {

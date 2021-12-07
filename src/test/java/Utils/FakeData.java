@@ -54,9 +54,5 @@ public class FakeData {
         return String.format("%09d", number);
     }
 
-    public static String generateCardType(){
 
-      String cardType="9421035830010";
-      return cardType;
-    }
 }
